@@ -16,7 +16,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => "{\n  \"personalizations\": [\n    {\n      \"to\": [\n        {\n          \"email\": \"dcsantos136@gmail.com\"\n        }\n      ],\n      \"subject\": \"$subject\"\n    }\n  ],\n  \"from\": {\n    \"email\": \"dcsantos136@gmail.com\"\n  },\n  \"content\": [\n    {\n      \"type\": \"text/html\",\n      \"value\": \"Nome: $name<br>$email<br>$subject<br>$message\"\n    }\n  ]\n}",
   CURLOPT_HTTPHEADER => array(
-    "authorization: Bearer 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",
+    "authorization: Bearer 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",
     "cache-control: no-cache",
     "content-type: application/json"
   ),
