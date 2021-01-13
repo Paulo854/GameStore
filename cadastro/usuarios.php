@@ -1613,7 +1613,7 @@ print {
 }
 
 .box {
-	width: 300px;
+	width: 1000px;
 	background-color: #fff;
 	border-radius: 12px;
 	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
