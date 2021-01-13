@@ -34,7 +34,7 @@ if(empty($_POST['email'])) {
 	    $mail->Password = "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";
 	    $mail->SetFrom("dcsantos136@gmail.com");
 	    $mail->Subject = "Recuperar senha";
-	    $mail->Body = "<b>Sua nova senha é: </b> " . $random ." <b> @GameStore </b>";
+	    $mail->Body = "<b>Sua nova senha é: </b> " . $random ."";
 	    $mail->AddAddress($email);
 
 	     if(!$mail->Send()) {
