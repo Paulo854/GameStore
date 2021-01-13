@@ -2,7 +2,7 @@
 include("conecta.php");
 
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html>	
 <html>
 <title>Games Stores</title>
 <meta charset="UTF-8">
