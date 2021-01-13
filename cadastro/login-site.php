@@ -52,7 +52,7 @@ session_start();
 
                         <a href='recuperar.php'>Recuperar senha</a>
                         <br>
-                        <a href='painel.php'>Cadastrar</a>
+                        <a href='cadastro/painel.php'>Cadastrar</a>
 
                     </div>
                 </div>

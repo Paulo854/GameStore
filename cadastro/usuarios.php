@@ -51,7 +51,7 @@ include('conexao/verifica_login.php');
 
                     </div><!-- .box -->
 
-                    <h2 style='color:grey'><a href="painel.php">Cadastrar usuário</a></h2>
+                    <h2 style='color:grey'><a href="cadastro/painel.php">Cadastrar usuário</a></h2>
 
                     <h2 style='color:grey'><a href="conexao/logout.php">Sair</a></h2>
 
