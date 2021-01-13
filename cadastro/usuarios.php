@@ -1613,6 +1613,9 @@ print {
 }
 
 .box {
+	display: flex;
+	align-content: center;
+	align-items: center;
 	width: 600px;
 	background-color: #fff;
 	border-radius: 12px;
