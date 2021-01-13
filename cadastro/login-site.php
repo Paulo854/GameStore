@@ -51,6 +51,7 @@ session_start();
                         </form>
 
                         <a href='recuperar.php'>Recuperar senha</a>
+                        <br>
                         <a href='painel.php'>Cadastrar</a>
 
                     </div>
