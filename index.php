@@ -163,20 +163,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     </div>
 
     <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Sony PlayStation 4</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/carregando/carregamentops4.html">R$2.199,99
+      <h1><b>Sony PlayStation 4</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/TCC/produtops4/ps4.html">R$2.199,99
 </a></span></h1>
       <p class="w3-text-grey">Uns dos melhores Consoles atualmente</p>
       <hr>
    
-      <h1><b>Xbox One X</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/carregando/carregamentopsx.html">R$3.198,00 </a></span></h1>
+      <h1><b>Xbox One X</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/TCC/produtoxbox/xbox.html">R$3.198,00 </a></span></h1>
       <p class="w3-text-grey">Atualmente ele se encontra em primeiro lugar na lista de consoles mais potentes</p>
       <hr>
       
-      <h1><b>Nintendo Switch</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/carregando/carregamentonin.html">R$1.999,99</a> </span></h1>
+      <h1><b>Nintendo Switch</b> <span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/TCC/produtonintendo/nintendo.html">R$1.999,99</a> </span></h1>
       <p class="w3-text-grey"> o híbrido da gigante japonesa</p>
       <hr>
 
-      <h1><b>Sony PlayStation 5</b> <span class="w3-tag w3-grey w3-round">Novo!</span><span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/carregando/carregamentops5.html">R$4.459,99</a></span></h1>
+      <h1><b>Sony PlayStation 5</b> <span class="w3-tag w3-grey w3-round">Novo!</span><span class="w3-right w3-tag w3-dark-grey w3-round"> <a href="/TCC/ps5/teste.html">R$4.459,99</a></span></h1>
       <p class="w3-text-grey">Uma nova evolução de Consoles</p>
     </div>
 
