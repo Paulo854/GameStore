@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!$_SESSION['usuario']) {
-	header('Location: ../index.php');
+if(!$_SESSION['login']) {
+	header('Location: ../login-site.php');
 	exit();
 }

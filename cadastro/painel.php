@@ -1,7 +1,7 @@
 <?php
 include('conexao/verifica_login.php');
 ?>
-<p><center>Olá, <?php echo $_SESSION['usuario'];?></center></p>
+<p><center>Olá, <?php echo $_SESSION['login'];?></center></p>
 <!DOCTYPE html>
 <html>
 

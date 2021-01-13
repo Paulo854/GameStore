@@ -28,7 +28,7 @@ if($row == 1) {
 
 			$conexao->close();
 
-			header('Location: ../index.php');
+			header('Location: ../login-site.php');
 			exit();
 
 		} else {
