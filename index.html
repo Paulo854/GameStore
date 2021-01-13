@@ -7,6 +7,17 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 <link rel="shortcut icon" type="image/x-icon" href="/TCC/img/logo2.png">
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LdQ6ikaAAAAADDzobdHcMcyxMcPLfnJIUWPiKV0', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
 <script language="JavaScript">
     function protegercodigo() {
     if (event.button==2||event.button==3){
