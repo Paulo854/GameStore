@@ -34,7 +34,7 @@ if(empty($_POST['email'])) {
 	    $mail->Password = "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";
 	    $mail->SetFrom("dcsantos136@gmail.com");
 	    $mail->Subject = "Recuperar senha";
-	    $mail->Body = "<b>Sua nova senha é: </b> " . $random ."";
+	    $mail->Body = "<b>Código:</b> " . $random ." <b>Use o código para redefinir sua senha:</b> http://localhost/loginphp/redefinirsenha.php";
 	    $mail->AddAddress($email);
 
 	     if(!$mail->Send()) {
