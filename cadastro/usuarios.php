@@ -1,7 +1,7 @@
 <?php
 include('conexao/verifica_login.php');
 ?>
-<p><center>Olá, <?php echo $_SESSION['login'];?></center></p>
+<p><center>Olá, <?php echo $_SESSION['usuario'];?></center></p>
 <!DOCTYPE html>
 <html>
 
@@ -34,13 +34,13 @@ include('conexao/verifica_login.php');
                           die("Falha de conexão " . mysqli_connect_error());
                       }
 
-                      $sql = "SELECT Codigo, login, email FROM usuarios";
+                      $sql = "SELECT id, usuario, email FROM usuarios";
                       $result = mysqli_query($conexao, $sql);
 
                       if (mysqli_num_rows($result) > 0) {
                           // output data of each row
                           while($row = mysqli_fetch_assoc($result)) {
-                              echo $row["Codigo"]. " - Nome: <b>" . $row["login"]. "</b> " . $row["email"]. "<br>";
+                              echo $row["id"]. " - Nome: <b>" . $row["usuario"]. "</b> " . $row["email"]. "<br>";
                           }
                       } else {
                           echo "0 results";
@@ -51,7 +51,7 @@ include('conexao/verifica_login.php');
 
                     </div><!-- .box -->
 
-                    <h2 style='color:grey'><a href="cadastro/painel.php">Cadastrar usuário</a></h2>
+                    <h2 style='color:grey'><a href="painel.php">Cadastrar usuário</a></h2>
 
                     <h2 style='color:grey'><a href="conexao/logout.php">Sair</a></h2>
 

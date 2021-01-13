@@ -3,7 +3,7 @@ session_start();
 include('conecta.php');
 
 if(empty($_POST['email']) || empty($_POST['senha'])) {
-	header('Location: .html');
+	header('Location: sistemadelogin.html');
 	exit();
 }
 
