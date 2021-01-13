@@ -9,7 +9,7 @@ if(empty($_POST['codigo'])) {
 
 $codigo = mysqli_real_escape_string($conexao, $_POST['codigo']);
 
-$query = "select usuario from usuario where senha = md5('{$codigo}')";
+$query = "select login from usuarios where senha = md5('{$codigo}')";
 
 $result = mysqli_query($conexao, $query);
 
@@ -22,7 +22,7 @@ if($row == 1) {
 
   if($senha1 == $senha2) {
 
-    $sql = "update usuario set senha = md5('{$senha1} where senha = md5('{$codigo}')";
+    $sql = "update login set senha = md5('{$senha1} where senha = md5('{$codigo}')";
 
 		if($conexao->query($sql) === TRUE){
 
