@@ -22,6 +22,6 @@ if($row == 1) {
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
-	header('Location: ../index.php');
+	header('Location: ../login-site.php');
 	exit();
 }
