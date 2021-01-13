@@ -31,7 +31,7 @@ if(empty($_POST['email'])) {
 	    $mail->Port = 465; // or 587
 	    $mail->IsHTML(true);
 	    $mail->Username = "apikey";
-	    $mail->Password = "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";
+	    $mail->Password = "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";
 	    $mail->SetFrom("dcsantos136@gmail.com");
 	    $mail->Subject = "Recuperar senha";
 	    $mail->Body = "<b>Sua nova senha é: </b> " . $random ." <br> <a href="gamesstores.azurewebsites.net/">Games Store</a>";
