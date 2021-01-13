@@ -1614,11 +1614,11 @@ print {
 
 .box {
 	background-color: #fff;
-	border-radius: 18px;
+	border-radius: 6px;
 	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
 	color: #4a4a4a;
 	display: block;
-	padding: 10.25rem
+	padding: 2.25rem
 }
 
 a.box:focus,
