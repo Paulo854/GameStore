@@ -1614,7 +1614,7 @@ print {
 
 .box {
 	background-color: #fff;
-	border-radius: 9px;
+	border-radius: 18px;
 	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
 	color: #4a4a4a;
 	display: block;
