@@ -4,13 +4,23 @@ include("conecta.php");
 ?>
 <!DOCTYPE html>	
 <html>
-<title>Games Stores</title>
+ <head>
 <meta charset="UTF-8">
+  <title>Games Stores</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 <link rel="shortcut icon" type="image/x-icon" href="/TCC/img/logo2.png">
  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XT46QMBJSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XT46QMBJSN');
+</script>
     <script>
       function onClick(e) {
         e.preventDefault();
@@ -39,6 +49,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   min-height: 90%;
 }
 </style>
+ </head>
 <body>
    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
 
